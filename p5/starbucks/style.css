@@ -1,0 +1,33 @@
+/* We styled our html to visually show the digital interface for our prototype Comments were made above the each block. All of the code was made by Willy */
+
+html,
+
+/* This changes the font family to Roboto to match the fonts used in the background-image */
+
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* This allows us to center our sketch horizontally, and place a background-image tat will contain the SHARE information */
+
+body {
+    margin: 0;
+    display: flex;
+
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+
+    background-image: url('starbucks.png');
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+}
+
+/* This allowed us to move our sketch-holder close to the bottom of the screen */
+
+#sketch-holder {
+    position: relative;
+    top: 80%;
+    text-align: center;
+    display: inline-block;
+}
